@@ -3,9 +3,6 @@
   "license": "MIT",
   "type": "project",
   "description": "A test repo for RepoMan",
-  "autoload": {
-    "psr-0": { "": "src/" }
-  },
   "require": {
     "php": ">=5.3.3",
     "symfony/symfony": "~2.6-dev",
@@ -15,25 +12,11 @@
     "symfony/assetic-bundle": "~2.3",
     "symfony/swiftmailer-bundle": "~2.3",
     "symfony/monolog-bundle": "~2.4",
-    "sensio/distribution-bundle": "~2.3",
-    "sensio/framework-extra-bundle": "~3.0",
-    "sensio/generator-bundle": "~2.3",
-    "incenteev/composer-parameter-handler": "~2.0",
-    "friendsofsymfony/rest-bundle": "1.3.*",
-    "jms/serializer": "0.16.0",
-    "jms/serializer-bundle": "0.13.0",
     "willdurand/hateoas-bundle": "@stable",
     "behat/behat": "2.5.3",
-    "behat/symfony2-extension": "1.1.2",
-    "behat/mink-extension":          "*",
-    "behat/mink-browserkit-driver":  "*",
-    "snc/redis-bundle": "1.1.8",
-    "predis/predis": "v0.8.5",
-    "misd/guzzle-bundle": "~1.0",
-    "behat/mink-goutte-driver": "1.1.*"
+    "behat/symfony2-extension": "1.1.2"
   },
   "config": {
     "bin-dir": "bin"
-  }
   }
 }
